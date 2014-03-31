@@ -109,6 +109,7 @@
 			<propertiesList fixe="false" open="false">
 				<properties>
 					<property name="Balistique" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -130,6 +131,7 @@
 						</propertiesList>
 					</property>
 					<property name="Cartographie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -151,6 +153,7 @@
 						</propertiesList>
 					</property>
 					<property name="Commerce" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -175,6 +178,7 @@
 						<propertiesList open="true" fixe="false">
 							<propertyChoice>
 								<property name="Droit" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -196,6 +200,7 @@
 									</propertiesList>
 								</property>
 								<property name="Géographie" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -217,6 +222,7 @@
 									</propertiesList>
 								</property>
 								<property name="Histoire" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -241,6 +247,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -265,6 +272,7 @@
 						</propertiesList>
 					</property>
 					<property name="Herboristerie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -286,6 +294,7 @@
 						</propertiesList>
 					</property>
 					<property name="Ingénierie navale" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -307,6 +316,7 @@
 						</propertiesList>
 					</property>
 					<property name="Intendance" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -328,6 +338,7 @@
 						</propertiesList>
 					</property>
 					<property name="Lire/écrire" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -349,6 +360,7 @@
 						</propertiesList>
 					</property>
 					<property name="Médecine" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -374,6 +386,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -398,6 +411,7 @@
 						</propertiesList>
 					</property>
 					<property name="Sciences" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -419,6 +433,7 @@
 						</propertiesList>
 					</property>
 					<property name="Tactique" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -444,6 +459,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -468,6 +484,7 @@
 						</propertiesList>
 					</property>
 					<property name="Pointage de pièces" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -489,6 +506,7 @@
 						</propertiesList>
 					</property>
 					<property name="Recharge de pièces" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -513,6 +531,7 @@
 						<propertiesList open="true" fixe="false">
 							<propertyChoice>
 								<property name="Calfatage" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -534,6 +553,7 @@
 									</propertiesList>
 								</property>
 								<property name="Charpenterie" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -555,6 +575,7 @@
 									</propertiesList>
 								</property>
 								<property name="Cuisine" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -576,6 +597,7 @@
 									</propertiesList>
 								</property>
 								<property name="Voilerie" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -600,6 +622,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="Autre" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -624,6 +647,7 @@
 						</propertiesList>
 					</property>
 					<property name="Chasse" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -645,6 +669,7 @@
 						</propertiesList>
 					</property>
 					<property name="Chirurgie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -666,6 +691,7 @@
 						</propertiesList>
 					</property>
 					<property name="Dressage" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -687,6 +713,7 @@
 						</propertiesList>
 					</property>
 					<property name="Premiers soins" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -708,6 +735,7 @@
 						</propertiesList>
 					</property>
 					<property name="Connaissance des navires" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -729,6 +757,7 @@
 						</propertiesList>
 					</property>
 					<property name="Connaissances nautiques" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -750,6 +779,7 @@
 						</propertiesList>
 					</property>
 					<property name="Connaissance de la signalisation" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -771,6 +801,7 @@
 						</propertiesList>
 					</property>
 					<property name="Hydrographie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -792,6 +823,7 @@
 						</propertiesList>
 					</property>
 					<property name="Navigation" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -813,6 +845,7 @@
 						</propertiesList>
 					</property>
 					<property name="Pêche" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -834,6 +867,7 @@
 						</propertiesList>
 					</property>
 					<property name="Pratique nautique" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -855,6 +889,7 @@
 						</propertiesList>
 					</property>
 					<property name="Timonerie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -876,6 +911,7 @@
 						</propertiesList>
 					</property>
 					<property name="Acrobatie/escalade" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -897,6 +933,7 @@
 						</propertiesList>
 					</property>
 					<property name="Athlétisme" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -918,6 +955,7 @@
 						</propertiesList>
 					</property>
 					<property name="Discrétion" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -939,6 +977,7 @@
 						</propertiesList>
 					</property>
 					<property name="Équitation" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -960,6 +999,7 @@
 						</propertiesList>
 					</property>
 					<property name="Larcins" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -981,6 +1021,7 @@
 						</propertiesList>
 					</property>
 					<property name="Natation" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1002,6 +1043,7 @@
 						</propertiesList>
 					</property>
 					<property name="Survie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1023,6 +1065,7 @@
 						</propertiesList>
 					</property>
 					<property name="Vigilance" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1044,6 +1087,7 @@
 						</propertiesList>
 					</property>
 					<property name="Comédie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1065,6 +1109,7 @@
 						</propertiesList>
 					</property>
 					<property name="Connaissance des colons/indigènes" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1086,6 +1131,7 @@
 						</propertiesList>
 					</property>
 					<property name="Connaissance des marins" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1107,6 +1153,7 @@
 						</propertiesList>
 					</property>
 					<property name="Empathie" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1128,6 +1175,7 @@
 						</propertiesList>
 					</property>
 					<property name="Enseignement" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1149,6 +1197,7 @@
 						</propertiesList>
 					</property>
 					<property name="Étiquette" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1170,6 +1219,7 @@
 						</propertiesList>
 					</property>
 					<property name="Intimidation" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1191,6 +1241,7 @@
 						</propertiesList>
 					</property>
 					<property name="Jeu" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1216,6 +1267,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1240,6 +1292,7 @@
 						</propertiesList>
 					</property>
 					<property name="Meneur d’hommes" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1261,6 +1314,7 @@
 						</propertiesList>
 					</property>
 					<property name="Persuasion" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1282,6 +1336,7 @@
 						</propertiesList>
 					</property>
 					<property name="Politique" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1303,6 +1358,7 @@
 						</propertiesList>
 					</property>
 					<property name="Séduction" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1327,6 +1383,7 @@
 						<propertiesList open="true" fixe="false">
 							<propertyChoice>
 								<property name="Bâton" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1348,6 +1405,7 @@
 									</propertiesList>
 								</property>
 								<property name="Cimeterre" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1369,6 +1427,7 @@
 									</propertiesList>
 								</property>
 								<property name="Crochet" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1390,6 +1449,7 @@
 									</propertiesList>
 								</property>
 								<property name="Dague" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1410,8 +1470,8 @@
 										</properties>
 									</propertiesList>
 								</property>
-								<property name="Épée caraïbe en bois"
-									editable="false">
+								<property name="Épée caraïbe en bois" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1433,6 +1493,7 @@
 									</propertiesList>
 								</property>
 								<property name="Fouet" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1454,6 +1515,7 @@
 									</propertiesList>
 								</property>
 								<property name="Hache" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1475,6 +1537,7 @@
 									</propertiesList>
 								</property>
 								<property name="Lance" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1496,6 +1559,7 @@
 									</propertiesList>
 								</property>
 								<property name="Rapière" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1517,6 +1581,7 @@
 									</propertiesList>
 								</property>
 								<property name="Sabre" editable="false">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1541,6 +1606,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="Autre" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1568,6 +1634,7 @@
 						<propertiesList open="true" fixe="false">
 							<propertyChoice>
 								<property name="Grenade" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1589,6 +1656,7 @@
 									</propertiesList>
 								</property>
 								<property name="Mousquet" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1610,6 +1678,7 @@
 									</propertiesList>
 								</property>
 								<property name="Pistolet" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1634,6 +1703,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="Autre" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1661,6 +1731,7 @@
 						<propertiesList open="true" fixe="false">
 							<propertyChoice>
 								<property name="Arbalète" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1682,6 +1753,7 @@
 									</propertiesList>
 								</property>
 								<property name="Arc" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1703,6 +1775,7 @@
 									</propertiesList>
 								</property>
 								<property name="Dague" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1724,6 +1797,7 @@
 									</propertiesList>
 								</property>
 								<property name="Javelot" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1745,6 +1819,7 @@
 									</propertiesList>
 								</property>
 								<property name="Sarbacane" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1769,6 +1844,7 @@
 							<properties></properties>
 							<defaultProperty>
 								<property name="Autre" editable="true">
+									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
 											<property name="Attribut 1" editable="false">
@@ -1793,6 +1869,7 @@
 						</propertiesList>
 					</property>
 					<property name="Combat à mains nues" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1814,6 +1891,7 @@
 						</propertiesList>
 					</property>
 					<property name="Escrime" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -1835,6 +1913,7 @@
 						</propertiesList>
 					</property>
 					<property name="Esquive" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 						<propertiesList open="false" fixe="true">
 							<properties>
 								<property name="Attribut 1" editable="false">
@@ -2021,7 +2100,16 @@
 		</property>
 	</properties>
 	<beforeChangeValueListeners></beforeChangeValueListeners>
-	<afterChangeValueListeners></afterChangeValueListeners>
+	<afterChangeValueListeners>
+		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
+			<pattern>.*#Apprentissage</pattern>
+			<arg name="method">changeApprentissage</arg>
+		</listener>
+		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
+			<pattern>Attributs#[^#]*</pattern>
+			<arg name="method">changeAttribut</arg>
+		</listener>
+	</afterChangeValueListeners>
 	<beforeAddPropertyListeners></beforeAddPropertyListeners>
 	<afterAddPropertyListeners></afterAddPropertyListeners>
 	<beforeDeletePropertyListeners></beforeDeletePropertyListeners>
