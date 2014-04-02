@@ -2,6 +2,7 @@ package com.mrprez.gencross.impl.pavillonNoir;
 
 import com.mrprez.gencross.Personnage;
 import com.mrprez.gencross.Property;
+import com.mrprez.gencross.history.LevelToReachHistoryFactory;
 import com.mrprez.gencross.value.IntValue;
 import com.mrprez.gencross.value.Value;
 
@@ -11,8 +12,15 @@ public class PavillonNoir extends Personnage {
 	@Override
 	public void calculate() {
 		super.calculate();
+		checkEscrime();
 	}
 	
+	private void checkEscrime(){
+		if( getProperty("Compétences#Escrime#Apprentissage").getValue().getInt()>0 
+				&& getProperty("Avantages#Escrimeur")==null ){
+			errors.add("Vous devez prendre l'avantage Escrimeur pour avoir accès à la compétence Escrime");
+		}
+	}
 	
 	public void changeApprentissage(Property apprentissage, Value oldValue){
 		Property competence = (Property) apprentissage.getOwner();
@@ -57,8 +65,36 @@ public class PavillonNoir extends Personnage {
 			competence.setValue(new IntValue(base+apprentissage.getValue().getInt()));
 		}
 	}
+	
+	public boolean removeSousCompetence( Property sousCompetence ){
+		if( sousCompetence.getSubProperty("Apprentissage").getValue().getInt() != 0 ){
+			actionMessage = "Vous ne pouvez supprimer une compétence avec de l'apprentissage";
+			return false;
+		}
+		return true;
+	}
 
 	
+	public void passToAlive(){
+		for(Property competence : getProperty("Compétences").getSubProperties()){
+			if(competence.getSubProperty("Apprentissage")!=null){
+				competence.getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
+				competence.getSubProperty("Apprentissage").setMin();
+				competence.getSubProperty("Apprentissage").setMax(null);
+			}else{
+				for(Property sousCompetence : competence.getSubProperties()){
+					sousCompetence.getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
+					sousCompetence.getSubProperty("Apprentissage").setMin();
+					sousCompetence.getSubProperty("Apprentissage").setMax(null);
+				}
+				competence.getSubProperties().getDefaultProperty().getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
+				competence.getSubProperties().getDefaultProperty().getSubProperty("Apprentissage").setMax(null);
+			}
+		}
+		for(Property attribut : getProperty("Attributs").getSubProperties()){
+			attribut.setMin();
+		}
+	}
 
 	
 	

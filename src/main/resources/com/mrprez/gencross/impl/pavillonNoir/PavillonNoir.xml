@@ -4,8 +4,8 @@
 		xsi:noNamespaceSchemaLocation="http://mrprez.dyndns.org:8080/gencross-web/gencross-plugin.xsd">
 	<phase name="création"/>
 	<phaseList>
-		<phase name="création"/>
-		<phase name="à bord"/>
+		<phase name="Création"/>
+		<phase name="En vie"/>
 	</phaseList>
 	<pointPools>
 		<pool name="Attributs" remaining="13" toEmpty="true" total="13"/>
@@ -119,6 +119,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -141,6 +145,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -163,6 +171,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -188,6 +200,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -210,6 +226,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -232,6 +252,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -257,6 +281,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -282,6 +310,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -304,6 +336,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -326,6 +362,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -348,6 +388,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -370,6 +414,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -396,6 +444,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -421,6 +473,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -443,6 +499,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -469,6 +529,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -494,6 +558,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -516,6 +584,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -541,6 +613,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -563,6 +639,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -585,6 +665,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -607,6 +691,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -632,6 +720,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -657,6 +749,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -679,6 +775,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -701,6 +801,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -723,6 +827,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -745,6 +853,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -767,6 +879,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -789,6 +905,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -811,6 +931,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -833,6 +957,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -855,6 +983,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -877,6 +1009,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -899,6 +1035,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -921,6 +1061,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -943,6 +1087,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -965,6 +1113,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -987,6 +1139,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1009,6 +1165,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1031,6 +1191,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1053,6 +1217,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1075,6 +1243,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1097,6 +1269,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1119,6 +1295,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1141,6 +1321,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1163,6 +1347,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1185,6 +1373,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1207,6 +1399,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1229,6 +1425,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1251,6 +1451,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1277,6 +1481,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1302,6 +1510,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1324,6 +1536,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1346,6 +1562,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1368,6 +1588,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1393,6 +1617,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1415,6 +1643,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1437,6 +1669,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1459,6 +1695,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1481,6 +1721,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1503,6 +1747,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1525,6 +1773,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1547,6 +1799,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1569,6 +1825,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1591,6 +1851,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1616,6 +1880,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1644,6 +1912,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1666,6 +1938,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1688,6 +1964,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1713,6 +1993,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1741,6 +2025,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1763,6 +2051,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1785,6 +2077,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1807,6 +2103,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1829,6 +2129,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1854,6 +2158,10 @@
 												<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 											</property>
 											<property name="Apprentissage" editable="true">
+												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+													<pointPool>Compétences</pointPool>
+													<args></args>
+												</historyFactory>
 												<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 												<min>
 													<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1879,6 +2187,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1901,6 +2213,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -1923,6 +2239,10 @@
 									<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
 								</property>
 								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
 									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
 									<min>
 										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
@@ -2112,9 +2432,19 @@
 	</afterChangeValueListeners>
 	<beforeAddPropertyListeners></beforeAddPropertyListeners>
 	<afterAddPropertyListeners></afterAddPropertyListeners>
-	<beforeDeletePropertyListeners></beforeDeletePropertyListeners>
+	<beforeDeletePropertyListeners>
+		<listener class="com.mrprez.gencross.listener.custom.CustomBeforeDeletePropertyListener">
+			<pattern>Compétences#[^#]*#[^#]*</pattern>
+			<arg name="method">removeSousCompetence</arg>
+		</listener>
+	</beforeDeletePropertyListeners>
 	<afterDeletePropertyListeners></afterDeletePropertyListeners>
-	<passToNextPhaseListeners></passToNextPhaseListeners>
+	<passToNextPhaseListeners>
+		<listener class="com.mrprez.gencross.listener.custom.CustomPassToNextPhaseListener">
+			<phase>Création</phase>
+			<arg name="method">passToAlive</arg>
+		</listener>
+	</passToNextPhaseListeners>
 	<formulas>
 		<formula>Esquive=#Attributs#Réflexe# * 4</formula>
 		<formula>Vie=#Attributs#Carrure# * 2</formula>
