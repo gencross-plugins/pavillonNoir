@@ -18,6 +18,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:gencross-plugins/pavillonNoir.git</connection>
 		<developerConnection>scm:git:git@github.com:gencross-plugins/pavillonNoir.git</developerConnection>
+		<url>https://github.com/gencross-plugins/pavillonNoir</url>
 		<tag>HEAD</tag>
 	</scm>
 	
