@@ -433,7 +433,7 @@
 						<propertiesList open="true" fixe="false">
 							<properties></properties>
 							<defaultProperty>
-								<property name="" editable="true">
+								<property name="" editable="false">
 									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
@@ -518,7 +518,7 @@
 						<propertiesList open="true" fixe="false">
 							<properties></properties>
 							<defaultProperty>
-								<property name="" editable="true">
+								<property name="" editable="false">
 									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
@@ -1470,7 +1470,7 @@
 						<propertiesList open="true" fixe="false">
 							<properties></properties>
 							<defaultProperty>
-								<property name="" editable="true">
+								<property name="" editable="false">
 									<Value class="com.mrprez.gencross.value.IntValue">1</Value>
 									<propertiesList open="false" fixe="true">
 										<properties>
