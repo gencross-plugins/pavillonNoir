@@ -2,7 +2,7 @@
 <personnage name="BSG" version="1.1" gencrossVersion="1.10"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:noNamespaceSchemaLocation="http://mrprez.dyndns.org:8080/gencross-web/gencross-plugin.xsd">
-	<phase name="création"/>
+	<phase name="Création"/>
 	<phaseList>
 		<phase name="Création"/>
 		<phase name="En vie"/>
