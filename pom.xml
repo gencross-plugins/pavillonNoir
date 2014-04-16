@@ -5,7 +5,7 @@
 	<packaging>jar</packaging>
 	
 	<artifactId>pavillonNoir</artifactId>
-	<version>1.2</version>
+	<version>1.3-SNAPSHOT</version>
 	
 	<name>Pavillon Noir</name>
 	
@@ -18,7 +18,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/gencross-plugins/pavillonNoir.git</connection>
 		<developerConnection>scm:git:https://github.com/gencross-plugins/pavillonNoir.git</developerConnection>
-		<tag>pavillonNoir-1.2</tag>
+		<tag>HEAD</tag>
 	</scm>
 	
 	
