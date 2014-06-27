@@ -106,7 +106,7 @@
 			<Value class="com.mrprez.gencross.value.IntValue">2</Value>
 		</property>
 		<property editable="false" name="Compétences">
-			<propertiesList fixe="false" open="false">
+			<propertiesList fixe="true" open="false">
 				<properties>
 					<property name="Balistique" editable="false">
 						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
