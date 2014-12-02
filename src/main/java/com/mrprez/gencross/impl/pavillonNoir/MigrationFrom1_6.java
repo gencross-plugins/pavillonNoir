@@ -28,9 +28,30 @@ public class MigrationFrom1_6 implements Migrator {
 			}
 		}
 		
+		if(migrationPersonnage.getPhase().equals("En vie")){
+			transformHistoryFactory(competences, "Expérience");
+		}
+		
 		migrationPersonnage.getPluginDescriptor().setVersion(new Version(1,7));
 		
 		return migrationPersonnage;
+	}
+	
+	
+	private void transformHistoryFactory(Property property, String pointPool){
+		if(property.getName().equals("Apprentissage")){
+			property.getHistoryFactory().setPointPool(pointPool);
+		}else if (property.getSubProperties()!=null){
+			for(Property subProperty : property.getSubProperties()){
+				transformHistoryFactory(subProperty, pointPool);
+			}
+			for(Property optionProperty : property.getSubProperties().getOptions().values()){
+				transformHistoryFactory(optionProperty, pointPool);
+			}
+			if(property.getSubProperties().getDefaultProperty()!=null){
+				transformHistoryFactory(property.getSubProperties().getDefaultProperty(), pointPool);
+			}
+		}
 	}
 
 }

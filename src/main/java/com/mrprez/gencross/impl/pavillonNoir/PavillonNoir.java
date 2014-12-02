@@ -87,6 +87,11 @@ public class PavillonNoir extends Personnage {
 					sousCompetence.getSubProperty("Apprentissage").setMin();
 					sousCompetence.getSubProperty("Apprentissage").setMax(null);
 				}
+				for(Property option : competence.getSubProperties().getOptions().values()){
+					option.getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
+					option.getSubProperty("Apprentissage").setMin();
+					option.getSubProperty("Apprentissage").setMax(null);
+				}
 				competence.getSubProperties().getDefaultProperty().getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
 				competence.getSubProperties().getDefaultProperty().getSubProperty("Apprentissage").setMax(null);
 			}

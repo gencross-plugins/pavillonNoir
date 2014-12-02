@@ -242,7 +242,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -272,7 +272,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -302,7 +302,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -709,7 +709,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -739,7 +739,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -769,7 +769,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -799,7 +799,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1819,7 +1819,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1849,7 +1849,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1879,7 +1879,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1909,7 +1909,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1939,7 +1939,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1969,7 +1969,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -1999,7 +1999,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2029,7 +2029,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2059,7 +2059,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2089,7 +2089,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2183,7 +2183,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2213,7 +2213,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2243,7 +2243,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2309,7 +2309,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2339,7 +2339,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2369,7 +2369,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2399,7 +2399,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
@@ -2429,7 +2429,7 @@
 													<Value class="com.mrprez.gencross.value.IntValue" offset="1">5</Value>
 												</max>
 												<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
-													<pointPool>Compétences</pointPool>
+													<pointPool>Expérience</pointPool>
 													<args>
 														<arg key="startValue">0.0</arg>
 														<arg key="factor">1.0</arg>
