@@ -2,6 +2,10 @@ package com.mrprez.gencross.impl.pavillonNoir.test;
 
 import com.mrprez.gencross.test.MigratorTest;
 
+import com.mrprez.gencross.Personnage;
+import com.mrprez.gencross.disk.PersonnageFactory;
+import com.mrprez.gencross.disk.PersonnageSaver;
+
 
 public class TestMigrationFrom1_6 extends MigratorTest {
 
