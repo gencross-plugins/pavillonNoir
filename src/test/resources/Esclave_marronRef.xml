@@ -100,10 +100,10 @@
 			</historyFactory>
 		</property>
 		<property name="Esquive" editable="false" canBeRemoved="true">
-			<Value class="com.mrprez.gencross.value.IntValue" offset="1">12</Value>
+			<Value class="com.mrprez.gencross.value.IntValue" offset="1">16</Value>
 		</property>
 		<property name="Vie" editable="false" canBeRemoved="true">
-			<Value class="com.mrprez.gencross.value.IntValue" offset="1">8</Value>
+			<Value class="com.mrprez.gencross.value.IntValue" offset="1">12</Value>
 		</property>
 		<property name="Compétences" editable="false" canBeRemoved="true">
 			<propertiesList fixe="true" open="false">
@@ -2750,8 +2750,8 @@
 		</listener>
 	</passToNextPhaseListeners>
 	<formulas>
-		<formula>Vie= #Attributs#Carrure# *2.0</formula>
-		<formula>Esquive= #Attributs#Réflexe# *4.0</formula>
+		<formula>Vie= #Attributs#Carrure# *2.0+4.0</formula>
+		<formula>Esquive= #Attributs#Réflexe# *4.0+4.0</formula>
 	</formulas>
 	<history>
 		<historyItem action="2">
