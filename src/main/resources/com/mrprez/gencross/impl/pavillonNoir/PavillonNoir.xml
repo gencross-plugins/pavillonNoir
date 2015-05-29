@@ -106,7 +106,53 @@
 			<Value class="com.mrprez.gencross.value.IntValue">2</Value>
 		</property>
 		<property editable="false" name="Compétences">
-			<propertiesList fixe="true" open="false">
+			<propertiesList fixe="false" open="true">
+				<defaultProperty>
+					<property name="" editable="false">
+						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
+						<propertiesList open="false" fixe="true">
+							<properties>
+								<property name="Attribut 1" editable="true">
+									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+									<valueChoice>
+										<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+									</valueChoice>
+								</property>
+								<property name="Attribut 2" editable="true">
+									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+									<valueChoice>
+										<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+									</valueChoice>
+								</property>
+								<property name="Apprentissage" editable="true">
+									<historyFactory class="com.mrprez.gencross.history.ProportionalHistoryFactory">
+										<pointPool>Compétences</pointPool>
+										<args></args>
+									</historyFactory>
+									<Value class="com.mrprez.gencross.value.IntValue">0</Value>
+									<min>
+										<Value class="com.mrprez.gencross.value.IntValue">0</Value>
+									</min>
+									<max>
+										<Value class="com.mrprez.gencross.value.IntValue">5</Value>
+									</max>
+								</property>
+							</properties>
+						</propertiesList>
+					</property>
+				</defaultProperty>
 				<properties>
 					<property name="Balistique" editable="false">
 						<Value class="com.mrprez.gencross.value.IntValue">1</Value>
@@ -2426,16 +2472,29 @@
 			<arg name="method">changeApprentissage</arg>
 		</listener>
 		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
+			<pattern>Compétences#[^#]*#Attribut [1-2]</pattern>
+			<arg name="method">changeCompetenceAttribut</arg>
+		</listener>
+		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
 			<pattern>Attributs#[^#]*</pattern>
 			<arg name="method">changeAttribut</arg>
 		</listener>
 	</afterChangeValueListeners>
 	<beforeAddPropertyListeners></beforeAddPropertyListeners>
-	<afterAddPropertyListeners></afterAddPropertyListeners>
+	<afterAddPropertyListeners>
+		<listener class="com.mrprez.gencross.listener.custom.CustomAfterAddPropertyListener">
+			<pattern>Compétences#.*</pattern>
+			<arg name="method">addCompetence</arg>
+		</listener>
+	</afterAddPropertyListeners>
 	<beforeDeletePropertyListeners>
 		<listener class="com.mrprez.gencross.listener.custom.CustomBeforeDeletePropertyListener">
 			<pattern>Compétences#[^#]*#[^#]*</pattern>
-			<arg name="method">removeSousCompetence</arg>
+			<arg name="method">removeCompetence</arg>
+		</listener>
+		<listener class="com.mrprez.gencross.listener.custom.CustomBeforeDeletePropertyListener">
+			<pattern>Compétences#[^#]*</pattern>
+			<arg name="method">removeCompetence</arg>
 		</listener>
 	</beforeDeletePropertyListeners>
 	<afterDeletePropertyListeners></afterDeletePropertyListeners>
