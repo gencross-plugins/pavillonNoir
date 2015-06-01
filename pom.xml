@@ -5,7 +5,7 @@
 	<packaging>jar</packaging>
 	
 	<artifactId>pavillonNoir</artifactId>
-	<version>1.10-SNAPSHOT</version>
+	<version>1.9.1-SNAPSHOT</version>
 	
 	<name>Pavillon Noir</name>
 	
