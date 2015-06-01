@@ -5,7 +5,7 @@ import com.mrprez.gencross.migration.MigrationPersonnage;
 import com.mrprez.gencross.migration.Migrator;
 
 
-public class MigrationFrom1_8 implements Migrator {
+public class MigrationFrom1_9 implements Migrator {
 
 	@Override
 	public MigrationPersonnage migrate(MigrationPersonnage migrationPersonnage) throws Exception {
