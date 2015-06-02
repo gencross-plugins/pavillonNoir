@@ -128,7 +128,7 @@
 								</property>
 								<property name="Attribut 2" editable="true" canBeRemoved="true">
 									<Value class="com.mrprez.gencross.value.StringValue">3</Value>
-										<valueChoice>
+									<valueChoice>
 										<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
