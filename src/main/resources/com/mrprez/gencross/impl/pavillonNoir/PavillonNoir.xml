@@ -122,6 +122,7 @@
 										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 									</valueChoice>
 								</property>
 								<property name="Attribut 2" editable="true">
@@ -134,6 +135,7 @@
 										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 									</valueChoice>
 								</property>
 								<property name="Apprentissage" editable="true">
