@@ -14,6 +14,6 @@
 	<entry key="genCross.plugin.migration.1.8">com.mrprez.gencross.impl.pavillonNoir.MigrationFrom1_8</entry>
 	<entry key="genCross.plugin.migration.1.9">com.mrprez.gencross.impl.pavillonNoir.MigrationFrom1_9</entry>
 	<entry key="genCross.plugin.migration.1.9.1">com.mrprez.gencross.impl.pavillonNoir.MigrationFrom1_9_1</entry>
-	<entry key="genCross.plugin.migration.1.9.1">com.mrprez.gencross.impl.pavillonNoir.MigrationFrom1_9_2</entry>
+	<entry key="genCross.plugin.migration.1.9.2">com.mrprez.gencross.impl.pavillonNoir.MigrationFrom1_9_2</entry>
 </properties>
 
