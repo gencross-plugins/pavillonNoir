@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<personnage name="Pavillon Noir" version="1.9.2" gencrossVersion="1.11">
+<personnage name="Pavillon Noir" version="1.9.3" gencrossVersion="1.11">
 	<phase name="En vie"/>
 	<phaseList>
 		<phase name="Création"/>
