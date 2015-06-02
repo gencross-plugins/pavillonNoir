@@ -123,10 +123,21 @@
 										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
 										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">3</Value>
 									</valueChoice>
 								</property>
 								<property name="Attribut 2" editable="true" canBeRemoved="true">
 									<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+										<valueChoice>
+										<Value class="com.mrprez.gencross.value.StringValue">Erudition</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Perception</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Pouvoir</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Carrure</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Dextérité</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Réflexe</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">Social</Value>
+										<Value class="com.mrprez.gencross.value.StringValue">3</Value>
+									</valueChoice>
 								</property>
 								<property name="Apprentissage" editable="true" canBeRemoved="true">
 									<Value class="com.mrprez.gencross.value.IntValue" offset="1">0</Value>
