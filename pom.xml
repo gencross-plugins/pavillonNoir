@@ -5,14 +5,14 @@
 	<packaging>jar</packaging>
 	
 	<artifactId>pavillonNoir</artifactId>
-	<version>1.9.3-SNAPSHOT</version>
+	<version>1.9-SNAPSHOT</version>
 	
 	<name>Pavillon Noir</name>
 	
 	<parent>
 		<artifactId>gencross-plugins</artifactId>
 		<groupId>com.mrprez.gencross.plugins</groupId>
-		<version>1.5</version>
+		<version>1.4</version>
 	</parent>
 	
 	<scm>

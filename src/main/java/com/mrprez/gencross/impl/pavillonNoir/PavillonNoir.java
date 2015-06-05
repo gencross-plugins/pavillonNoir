@@ -40,12 +40,6 @@ public class PavillonNoir extends Personnage {
 		}
 	}
 	
-	public void changeCompetenceAttribut(Property competenceAttribut, Value oldValue){
-		Property competence = (Property) competenceAttribut.getOwner();
-		calculateCompetence(competence);
-	}
-	
-	
 	
 	private void calculateCompetence(Property competence){
 		Property apprentissage = competence.getSubProperty("Apprentissage");
@@ -72,22 +66,16 @@ public class PavillonNoir extends Personnage {
 		}
 	}
 	
-	public boolean removeCompetence( Property competence ){
-		if( competence.getSubProperty("Apprentissage").getValue().getInt() != 0 ){
+	public boolean removeSousCompetence( Property sousCompetence ){
+		if( sousCompetence.getSubProperty("Apprentissage").getValue().getInt() != 0 ){
 			actionMessage = "Vous ne pouvez supprimer une compétence avec de l'apprentissage";
 			return false;
 		}
 		return true;
 	}
 
-	public void addCompetence( Property competence ){
-		calculateCompetence(competence);
-	}
 	
 	public void passToAlive(){
-		Property defaultCompetence = getProperty("Compétences").getSubProperties().getDefaultProperty();
-		defaultCompetence.getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
-		defaultCompetence.getSubProperty("Apprentissage").setMax(null);
 		for(Property competence : getProperty("Compétences").getSubProperties()){
 			if(competence.getSubProperty("Apprentissage")!=null){
 				competence.getSubProperty("Apprentissage").setHistoryFactory(new LevelToReachHistoryFactory("Expérience"));
