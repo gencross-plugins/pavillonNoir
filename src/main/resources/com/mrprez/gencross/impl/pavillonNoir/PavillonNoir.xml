@@ -2421,9 +2421,36 @@
 	</properties>
 	<beforeChangeValueListeners></beforeChangeValueListeners>
 	<afterChangeValueListeners>
-		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
+		<listener class="com.mrprez.gencross.impl.pavillonNoir.GroovyAfterChangeValueListener">
 			<pattern>.*#Apprentissage</pattern>
-			<arg name="method">changeApprentissage</arg>
+			<arg name="script">
+				<![CDATA[
+					import com.mrprez.gencross.value.*
+				
+					def competence = property.getOwner()
+					def attributeName1 = competence.getSubProperty("Attribut 1").getValue().getString()
+					def attributeName2 = competence.getSubProperty("Attribut 2").getValue().getString()
+					def value1
+					if(attributeName1 == "3"){
+						value1 = 3
+					}else{
+						value1 = personnage.getProperty("Attributs").getSubProperty(attributeName1).getValue().getInt()
+					}
+					def value2
+					if(attributeName2 == "3"){
+						value2 = 3
+					}else{
+						value2 = personnage.getProperty("Attributs").getSubProperty(attributeName2).getValue().getInt()
+					}
+					if(property.getValue().getInt() == 0){
+						def base = (value1 + value2) / 2
+						competence.setValue(new IntValue(base))
+					}else{
+						def base = value1 + value2
+						competence.setValue(new IntValue(base+property.getValue().getInt()))
+					}
+				]]>
+			</arg>
 		</listener>
 		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
 			<pattern>Attributs#[^#]*</pattern>
