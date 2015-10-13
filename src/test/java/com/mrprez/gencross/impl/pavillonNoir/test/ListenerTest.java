@@ -8,7 +8,7 @@ import com.mrprez.gencross.Property;
 import com.mrprez.gencross.disk.PersonnageFactory;
 import com.mrprez.gencross.value.IntValue;
 
-public class GroovyTest {
+public class ListenerTest {
 	
 	@Test
 	public void testChangeApprentissage() throws Exception{
