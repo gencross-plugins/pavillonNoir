@@ -2421,19 +2421,9 @@
 	</properties>
 	<beforeChangeValueListeners></beforeChangeValueListeners>
 	<afterChangeValueListeners>
-		<listener class="com.mrprez.gencross.listener.groovy.GroovyAfterChangeValueListener">
+		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
 			<pattern>.*#Apprentissage</pattern>
-			<arg name="script">
-				<![CDATA[
-					def competence = property.getOwner()
-					def attributeName1 = competence.getSubProperty("Attribut 1").getValue().getString()
-					def attributeName2 = competence.getSubProperty("Attribut 2").getValue().getString()
-					def value1 = attributeName1 == "3" ? 3 : personnage.getProperty("Attributs").getSubProperty(attributeName1).getValue().getInt()
-					def value2 = attributeName2 == "3" ? 3 : personnage.getProperty("Attributs").getSubProperty(attributeName2).getValue().getInt()
-					def competenceValue = property.getValue().getInt() == 0 ? (value1 + value2) / 2 : value1 + value2 + property.getValue().getInt()
-					competence.setValue(new IntValue(competenceValue))
-				]]>
-			</arg>
+			<arg name="method">changeApprentissage</arg>
 		</listener>
 		<listener class="com.mrprez.gencross.listener.custom.CustomAfterChangeValueListener">
 			<pattern>Attributs#[^#]*</pattern>
